@@ -5,9 +5,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     title = "13ый семинар МНКС"
-    author = "Darshan Baral"
-    description = "Website title"
-    copyright = "МГУ, 2019"
+    author = "МНКС"
+    description = "13ый семинар МНКС"
+    copyright = ""
     
 
     [params.theme]
@@ -16,7 +16,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         mainTheme = "light"
         altTheme = "dark"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
-        showAttribute = false
+        showAttribute = true
 
     [params.favicons]
         use = true
@@ -36,40 +36,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		location = "Казань, 18-22 мая 2020"
         photo = "mnks-logo_dec2019.svg"
 
-    # Section for links to social websites
-    [params.social]
-        title = "Links"
-
-        [[params.social.list]]
-            class = "fab"
-            icon = "fa-linkedin-in"
-            url = "mailto::atsyplenkov@gmail.com"
-            title = "LinkedIn"		
-        [[params.social.list]]
-            class = "fab"
-            icon = "fa-stack-overflow"
-            url = "#"
-            title = "StackOverflow"
-        [[params.social.list]]
-            class = "fab"
-            icon = "fa-github"
-            url = "#"
-            title = "GitHub"
-        [[params.social.list]]
-            class = "fab"
-            icon = "fa-twitter"
-            url = "#"
-            title = "Twitter"
-		[[params.social.list]]
-            class = "ai"
-            icon = "ai-google-scholar"
-            url = "#"
-            title = "Google Scholar"
-		[[params.social.list]]
-            class = "ai"
-            icon = "ai-researchgate"
-            url = "#"
-            title = "ResearchGate"
 
     #Specify what is showin in the Accordion
     [[params.showInAccordion]]
@@ -105,15 +71,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
             thesis_title = "в здании корпуса ФГБОУ ВО Казанский (Приволжский) федеральный университет (ул. Товарищеская, д.5, 202 кабинет)"
             thesis_link = "https://yandex.ru/maps/-/CGh6EVmL"
         [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
+            degree = "19-20 мая 2020 г."
+            college = "Заседание семинара"
+            dates = ""
         [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+            degree = "21 мая 2020 г."
+            college = "Экскурсии"
+            dates = ""
+        [[params.education.list]]
+            degree = "22 мая 2020 г."
+            college = "Отъезд"
+            dates = ""
 
  # Experience section
     [params.experience]
@@ -159,18 +127,18 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         [[params.project.list]]
             title = "18 мая, Казань"
             url = "https://kazantravel.ru/"
-            description = "Экскурсия по г. Казань"
+            description = "Welcome-экскурсия по г. Казань"
 
 
         [[params.project.list]]
             title = "21 мая, Свияжск"
             url = "https://kazantravel.ru/attractions/ostrov-grad-sviyazhsk/"
-            description = "Научно-позновательная поездка на остров-град Свияжск"
+            description = "Научно-исследовательская поездка на остров-град Свияжск"
             
         [[params.project.list]]
             title = "21 мая, Раифский монастырь"
             url = "https://kazantravel.ru/attractions/raifskiy-monastyr/"
-            description = "Научно-позновательная поездка на остров-град Свияжск"
+            description = "Эксурсионная поездка в Раифский монастырь"
             
     # Hobby section
     [params.hobby]
@@ -180,4 +148,4 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         [[params.hobby.list]]		
 		    hobby = "[Первое информационное письмо](files/kazan_1_pismo.doc)"
         [[params.hobby.list]]		
-		    hobby = "Правила оформления статей"
+		    hobby = "[Правила оформления статей](files/kazan_pravila.docx)"
