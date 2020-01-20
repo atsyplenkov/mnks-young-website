@@ -56,13 +56,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [params.aboutme]
         title = "О семинаре"
-        icon = "fas fa-user"
+        icon = "fas fa-university"
         description = "**18-22 мая** 2020 г. в г. Казани на базе ФГАОУ ВО «Казанский (Приволжский) федеральный университет» состоится Тринадцатый семинар молодых ученых вузов, объединяемых Межвузовским научно-координационным советом по проблемам эрозионных, русловых и устьевых процессов при МГУ.  \n   \n  [ЗАРЕГИСТРИРОВАТЬСЯ](https://forms.gle/G2n976rvxeJrA7qc8)"
 
     # Education section
     [params.education]
         title = "Программа семинара"
-        icon = "fas fa-graduation-cap"
+        icon = "fas fa-calendar-alt"
 
         [[params.education.list]]
             degree = "18 мая 2020 г."
@@ -122,7 +122,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     # Project section
     [params.project]
         title = "Экскурсии"
-        icon = "fas fa-project-diagram"
+        icon = "fas fa-binoculars"
 
         [[params.project.list]]
             title = "18 мая, Казань"
