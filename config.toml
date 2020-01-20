@@ -146,6 +146,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         icon = "fas fa-book"
 		
         [[params.hobby.list]]		
-		    hobby = "[Первое информационное письмо](files/kazan_1_pismo.doc)"
+		    hobby = "[Первое информационное письмо](files/kazan_1_pismo.pdf)"
         [[params.hobby.list]]		
 		    hobby = "[Правила оформления статей](files/kazan_pravila.docx)"
