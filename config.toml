@@ -7,7 +7,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title = "13ый семинар МНКС"
     author = "МНКС"
     description = "13ый семинар МНКС"
-    copyright = ""
+    copyright = "РЕГИСТРАЦИЯ ДО 31 ЯНВАРЯ 2020 года"
     
 
     [params.theme]
