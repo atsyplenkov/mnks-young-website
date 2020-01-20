@@ -7,7 +7,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     title = "13ый семинар МНКС"
     author = "МНКС"
     description = "13ый семинар МНКС"
-    copyright = "РЕГИСТРАЦИЯ ДО 31 ЯНВАРЯ 2020 года"
+    copyright = ""
     
 
     [params.theme]
@@ -149,3 +149,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		    hobby = "[Первое информационное письмо](files/kazan_1_pismo.pdf)"
         [[params.hobby.list]]		
 		    hobby = "[Правила оформления статей](files/kazan_pravila.docx)"
+
+    # Skills section
+    [params.skill]
+        title = "Контакты"
+        icon = "fas fa-paper-plane"
+		
+        [[params.skill.list]]		
+		    skill = "Все вопросы оргкомитету вы можете задать по почте [mnks-young@yandex.ru](mailto::mnks-young@yandex.ru)"
+        [[params.skill.list]]		
+		    skill = "*По всем вопросам можно обращаться к Председателю молодежного бюро Межвузовского совета Павлу Петровичу Головлеву (моб. тел.: 8-915-097-46-59); или Заместителю Председателя молодежного бюро Межвузовского совета Максиму Михайловичу Иванову (моб. тел. 8-910-433-52-26)*"
