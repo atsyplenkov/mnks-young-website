@@ -1,10 +1,18 @@
 <footer class="mb-4">
   <span class="markdownify">{{ .Site.Params.copyright | markdownify }}</span>
-  <span {{ if not .Site.Params.theme.showAttribute }}style="font-size:26px;"{{ end }}>
+  <span {{ if not .Site.Params.theme.showAttribute }}style="font-size:32px;"{{ end }}>
     <i>
       <a href="https://forms.gle/G2n976rvxeJrA7qc8">
         РЕГИСТРАЦИЯ ОТКРЫТА до 14 февраля 2020 г.
       </a>
     </i>
+	<div class="d-flex justify-content-center pt-2">
+  <div class="w-100 h-100">
+    <img
+      src="/images/mnks_organizers.svg"
+      alt="МНКС"
+      style="width: 95%; max-width: 300px;"
+    />
+  </div>
   </span>
 </footer>
